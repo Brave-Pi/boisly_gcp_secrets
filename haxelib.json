@@ -1,0 +1,15 @@
+{
+    "name": "boisly_gcp_secrets",
+    "url" : "https://github.com/brave-pi/boisly_config/",
+    "license": "MIT",
+    "tags": ["boisly","cloud","google","secrets","hxnodejs","node"],
+    "description": "An abstraction over Cloud secrets.",
+    "version": "1.0.0",
+    "classPath": "src/",
+    "releasenote": "Initial release.",
+    "contributors": ["piboistudios"],
+    "dependencies": {
+      "tink_core": ""
+    },
+    "main": "Install"
+  }

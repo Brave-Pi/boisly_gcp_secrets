@@ -1,0 +1,8 @@
+{
+    "secrets": {
+        "svc": {
+            "client_email": "progressive-web-dev-300511@appspot.gserviceaccount.com"
+        }
+    },
+    "testSecret": "projects/148268311946/secrets/boldxchange-promo-pass/versions/latest"
+}

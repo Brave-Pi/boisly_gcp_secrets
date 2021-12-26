@@ -1,0 +1,5 @@
+*.pem
+*.zip
+.haxelib/**
+bin/**
+node_modules/**

@@ -1,0 +1,14 @@
+{
+  "name": "boisly_gcp_secrets",
+  "version": "1.0.0",
+  "description": "This is an example Haxe project scaffolded by Visual Studio Code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/secret-manager": "^3.10.1"
+  }
+}
