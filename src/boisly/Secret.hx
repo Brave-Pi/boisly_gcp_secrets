@@ -1,9 +1,11 @@
 package boisly;
-
+import tink.json.Representation;
 import tink.CoreApi;
 import google_cloud.secret_manager.build.protos.protos.google.cloud.secretmanager.v1.IAccessSecretVersionResponse;
-
-abstract Secret(String) from String {
+@:jsonParse(function(str:String):boisly.Secret return str)
+abstract Secret(String){
+    inline function new(v) this = v;
+    @:from public static function ofString(v:String) return new Secret(v);
 	@:to public function reveal():Promise<tink.Chunk> {
 		return Gatekeeper.client.accessSecretVersion({
 			name: this
