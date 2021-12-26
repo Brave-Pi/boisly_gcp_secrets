@@ -1,6 +1,6 @@
 {
     "name": "boisly_gcp_secrets",
-    "url" : "https://github.com/brave-pi/boisly_config/",
+    "url" : "https://github.com/brave-pi/boisly_gcp_secrets/",
     "license": "MIT",
     "tags": ["boisly","cloud","google","secrets","hxnodejs","node"],
     "description": "An abstraction over Cloud secrets.",
