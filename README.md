@@ -11,13 +11,13 @@ abstract Secret(String) from String{
 This then allows you to do this:
 ```haxe
 var mySecret:boisly.Secret = 'projects/<projectId>/secrets/<secretId>/versions/<versionId>';
-mySecret.resolve().next(secret -> trace('Secret is: $secret'));
+mySecret.reveal().next(secret -> trace('Secret is: $secret'));
 ```
 
 Or with `tink_await`:
 ```haxe
 var mySecret:boisly.Secret = 'projects/<projectId>/secrets/<secretId>/versions/<versionId>';
-trace('Secret is: '${@:await mySecret.resolve()});
+trace('Secret is: '${@:await mySecret.reveal()});
 ```
 
 Supports `tink_json` parsing.

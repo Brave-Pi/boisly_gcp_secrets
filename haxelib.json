@@ -4,7 +4,7 @@
     "license": "MIT",
     "tags": ["boisly","cloud","google","secrets","hxnodejs","node"],
     "description": "An abstraction over Cloud secrets.",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "classPath": "src/",
     "releasenote": "JSON parsing.",
     "contributors": ["piboistudios"],
