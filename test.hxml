@@ -1,4 +1,3 @@
 dev.hxml
---library tink_await
 --main Test
 --js bin/node/test.js

@@ -6,7 +6,7 @@
     "description": "An abstraction over Cloud secrets.",
     "version": "1.0.0",
     "classPath": "src/",
-    "releasenote": "Initial release.",
+    "releasenote": "JSON parsing.",
     "contributors": ["piboistudios"],
     "dependencies": {
       "tink_core": ""
