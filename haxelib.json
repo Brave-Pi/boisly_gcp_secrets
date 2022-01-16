@@ -4,12 +4,13 @@
     "license": "MIT",
     "tags": ["boisly","cloud","google","secrets","hxnodejs","node"],
     "description": "An abstraction over Cloud secrets.",
-    "version": "1.0.2",
+    "version": "1.0.21",
     "classPath": "src/",
-    "releasenote": "JSON parsing.",
+    "releasenote": "Dependencies.",
     "contributors": ["piboistudios"],
     "dependencies": {
-      "tink_core": ""
+      "tink_core": "",
+      "google-cloud-secret-manager": ""
     },
     "main": "Install"
   }

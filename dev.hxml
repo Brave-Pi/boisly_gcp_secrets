@@ -1,7 +1,7 @@
 --library hxnodejs
 --library tink_core
 --library boisly_config
-# --library google-cloud-secret-manager
+--library google-cloud-secret-manager
 --library dts2hx_aliases
 --library tink_await:git:https://github.com/brave-pi/tink_await
 --library tink_chunk
