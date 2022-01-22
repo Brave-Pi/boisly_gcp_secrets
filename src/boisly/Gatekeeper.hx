@@ -13,7 +13,6 @@ import boisly.gatekeeper.Config;
 
 	public static function get_client() {
 		if (_client == null) {
-      trace(AppSettings.config.secrets);
 			_client = new SecretManagerServiceClient({
 				credentials: {
 					client_email: AppSettings.config.secrets.svc.clientEmail,
