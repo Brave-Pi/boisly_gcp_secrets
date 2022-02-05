@@ -1,5 +1,5 @@
 package boisly;
-
+#if !(js&&!nodejs)
 import tink.CoreApi;
 import google_auth_library.JWT;
 import google_gax.GoogleAuth;
@@ -23,3 +23,4 @@ import boisly.gatekeeper.Config;
 		return _client;
 	}
 }
+#end

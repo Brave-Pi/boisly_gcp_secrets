@@ -1,16 +1,15 @@
 {
-    "name": "boisly_gcp_secrets",
-    "url" : "https://github.com/brave-pi/boisly_gcp_secrets/",
-    "license": "MIT",
-    "tags": ["boisly","cloud","google","secrets","hxnodejs","node"],
-    "description": "An abstraction over Cloud secrets.",
-    "version": "1.0.21",
-    "classPath": "src/",
-    "releasenote": "Dependencies.",
-    "contributors": ["piboistudios"],
-    "dependencies": {
-      "tink_core": "",
-      "google-cloud-secret-manager": ""
-    },
-    "main": "Install"
-  }
+  "name": "boisly_gcp_secrets",
+  "url" : "https://github.com/brave-pi/boisly_gcp_secrets/",
+  "license": "MIT",
+  "tags": ["boisly","cloud","google","secrets","hxnodejs","node"],
+  "description": "An abstraction over Cloud secrets.",
+  "version": "1.0.21",
+  "classPath": "src/",
+  "releasenote": "Dependencies.",
+  "contributors": ["piboistudios"],
+  "dependencies": {
+    "tink_core": ""
+  },
+  "main": "Install"
+}
